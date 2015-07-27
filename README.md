@@ -17,3 +17,6 @@ This plesk extension allows you to:
 * Manage credentials to access our API
 * Enable/Disable domains on your plesk host to be scanned with nimbusec
 * Manage the schedule of the automated scan tasks of nimbusec on your plesk host
+
+## Further Information
+For further information please visit https://nimbusec.com or you can write us an e-mail to office@nimbusec.com
