@@ -1,0 +1,19 @@
+<?php 
+if ($this->submitted == true) {
+	echo '<div class="msg-box msg-info"><div class="msg-content"><span class="title">Information</span>'.$this->infomsg.'</div></div>';
+}
+?>
+<?php echo $this->renderTabs($this->tabs); ?>
+<form method="POST" action="">
+	<input type="hidden" name="submitted" value="submitted"/>
+	<span>Select nimbusec Bundle: </span>
+	<select name="bundle">
+        <?php
+            foreach ($this->bundles as $bundle) {
+                echo '<option value="'.$bundle['id'].'">'.$bundle['name'].' ('.$bundle['active'].'/'.$bundle['contingent'].')'.'</option>';
+            }
+        ?>
+    </select>
+	<?php echo $this->renderList($this->list); ?>
+	<span id="btn-send" class="btn action"><button type="submit" name="submit" value="Update">Update</button></span>
+</form>
