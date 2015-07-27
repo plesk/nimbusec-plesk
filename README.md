@@ -10,6 +10,7 @@ As an alternative you can also install it via command line on your plesk host (n
 
 ## Uninstall
 To ninstall the extension you can either remove it via the Plesk Admin Panel  or use the commandline (note: use the plesk extension id here - nimbusec-hoster-integration
+    
     $PLESK_INSTALL_DIR/bin/extension -u nimbusec-hoster-integration
 
 ## Features
