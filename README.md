@@ -8,6 +8,17 @@ As an alternative you can also install it via command line on your plesk host (n
 
     $PLESK_INSTALL_DIR/bin/extension -i nimbusec-plesk.zip
 
+Please note that downloading this Repository as zip-File or downloading the Release-zip-File will not result in a file structure that can be imported into Plesk since all files and directories are part of the sub-directory nimbusec-plesk.
+
+The zip-file must have a structure similar to the following
+
+    nimbuse-plesk.zip
+     -htdocs/
+     -plib/
+     -var/
+     -meta.xml
+
+
 ## Uninstall
 To ninstall the extension you can either remove it via the Plesk Admin Panel  or use the commandline (note: use the plesk extension id here - nimbusec-hoster-integration
     
