@@ -163,7 +163,7 @@ DATA;
 	<get>
 		<filter/>
 		<dataset>
-			<hosting/>
+			<hosting-basic/>
 		</dataset>
 	</get>
 </webspace>
