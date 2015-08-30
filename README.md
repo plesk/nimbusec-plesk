@@ -18,6 +18,7 @@ The zip-file must have a structure similar to the following
      -var/
      -meta.xml
 
+For installing the extension via zip file you can use the file [nimbusec-plesk.zip](https://github.com/cumulodev/nimbusec-plesk/releases/download/v1.0.3/nimbusec-plesk.zip) which is attached to the current release.
 
 ## Uninstall
 To ninstall the extension you can either remove it via the Plesk Admin Panel  or use the commandline (note: use the plesk extension id here - nimbusec-hoster-integration
