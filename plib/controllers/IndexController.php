@@ -163,6 +163,7 @@ DATA;
 	<get>
 		<filter/>
 		<dataset>
+			<gen_info/>
 			<hosting-basic/>
 		</dataset>
 	</get>
